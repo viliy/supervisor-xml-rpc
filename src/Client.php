@@ -117,7 +117,7 @@ class Client
     }
 
     /**
-     * 查看系统日志
+     * 查看系统日志.
      *
      * @param $offset
      * @param $length

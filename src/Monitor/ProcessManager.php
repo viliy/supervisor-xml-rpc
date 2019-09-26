@@ -11,11 +11,10 @@ use Zhaqq\XmlRpc\Client;
  */
 abstract class ProcessManager
 {
-
     const RUNNING = 'RUNNING';
 
     /**
-     * 进程名称
+     * 进程名称.
      *
      * @var array
      */
@@ -28,6 +27,7 @@ abstract class ProcessManager
 
     /**
      * ProcessManager constructor.
+     *
      * @param array $config
      */
     public function __construct(array $config = [])
@@ -43,6 +43,7 @@ abstract class ProcessManager
 
     /**
      * @param $state
+     *
      * @return bool
      */
     protected function isFatal($state)
@@ -63,7 +64,6 @@ abstract class ProcessManager
     }
 
     /**
-     *
      * @param string $process
      *
      * @return $this

@@ -1,0 +1,25 @@
+{
+  "name": "zhaqq/xml-rpc",
+  "description": "Supervisor XML RPC Client in PHP",
+  "keywords": [
+    "supervisor",
+    "xml-rpc",
+    "library",
+    "supervisorctl",
+    "supervisord",
+    "monitoring",
+    "api"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Zhaqq\\XmlRpc\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "guzzlehttp/guzzle": "^6.3",
+    "php-amqplib/php-amqplib": "^2.10"
+  }
+}
